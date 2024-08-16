@@ -1,0 +1,12 @@
+:root {
+  --medium-screen: 768px;
+
+  --main-color-lighter: #1e293b;
+  --main-color: #0f172a;
+  --main-color-darker: #020617;
+
+  --secondary-color-lighter: #f8fafc;
+  --secondary-color: #f1f5f9;
+  --secondary-color-darker: #e2e8f0;
+  --secondary-color-darkest: #cbd5e1;
+}

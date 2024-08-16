@@ -1,0 +1,48 @@
+.formContainer {
+  justify-self: center;
+  align-self: center;
+}
+
+.formContainer form {
+  padding: 1rem;
+  border: 0.1rem solid var(--secondary-color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 5.4rem 5.5rem,
+  rgba(0, 0, 0, 0.12) 0rem -1.2rem 0.3rem,
+  rgba(0, 0, 0, 0.12) 0rem 0.4rem 0.6rem,
+  rgba(0, 0, 0, 0.17) 0rem 1.2rem 1.3rem,
+  rgba(0, 0, 0, 0.09) 0rem -0.3rem 0.5rem;
+}
+
+/* Form Fields */
+.inputContainer {  
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/* Submit Button */
+.buttonContainer {
+  border-top: 0.1rem solid var(--secondary-color);
+  padding-top: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer button {
+  border: 0.1rem solid var(--secondary-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.buttonContainer button:hover, .buttonContainer button:active {
+  border-color: var(--secondary-color-darkest);
+  background-color: var(--secondary-color-lighter);
+  color: var(--main-color);
+}

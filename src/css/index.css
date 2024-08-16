@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+input, button {
+  background-color: transparent;
+  border: none;
+}
+
+input, button, input::placeholder {
+  color: inherit;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+/* Removes input:number's arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}

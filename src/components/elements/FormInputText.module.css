@@ -1,0 +1,36 @@
+.inputText {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label */
+.inputText label {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.25rem;
+}
+
+/* Input */
+.inputContainer {
+  border: solid 0.1rem var(--secondary-color-darker);
+  border-radius: 0.1rem;
+  padding: 0.1rem;
+
+  box-shadow: 0.01rem 0.01rem 0.05rem var(--secondary-color-darkest);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer input {
+  font-size: 2rem;
+  padding: 0.25rem 0.5rem;
+
+  color: var(--main-color-darker);
+  background-color: var(--secondary-color);
+}
+
+.inputContainer input::placeholder {
+  opacity: 0.5;
+}

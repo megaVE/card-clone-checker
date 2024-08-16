@@ -1,0 +1,36 @@
+.chipContainer {
+  /* background-color: #daa520; */
+  border: 0.1rem solid #000;
+  border-radius: 1rem;
+  aspect-ratio: calc(70 / 52);
+
+  position: relative;
+}
+
+.firstShape, .secondShape {
+  position: absolute;
+  border: 0.2rem solid #000;
+}
+
+.firstShape {
+  height: calc(100% / 3);
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-radius: 10%;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.secondShape {
+  height: 100%;
+  width: 30%;
+  border-top: none;
+  border-bottom: none;
+  background-color: #daa520;
+  border-radius: 30%;
+
+  left: 50%;
+  transform: translateX(-50%);
+}

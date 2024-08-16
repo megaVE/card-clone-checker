@@ -1,0 +1,29 @@
+.colorContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.colorOption {
+  height: clamp(0.5rem, 4rem, 4.2rem);
+  width: clamp(0.5rem, 4rem, 4.2rem);
+
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 50%;
+  padding: 0.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.colorOption div {
+  height: 90%;
+  width: 90%;
+
+  border-radius: 50%;
+  
+  background-color: #fff;
+}
